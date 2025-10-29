@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  font-family: 'Courier New' Courier,Monospace;
+  font-size: 1em
+  line-height: 5em;;
+}
+header{
+  background-color:darkgray;
+}
+header h1{
+  text-align: center;
+}
+header ul{
+  list-style-type: none;
+  background-color: gray;
+}
+header li{
+   background-color:rgb(75,75,75);
+  color:white;
+   display: inline-block;
+   padding: 10px;
+}
+article{
+  width: 100%;
+}
+article::after{
+  content: 'Este Artigo foi impresso por Eduardo Teia';
+}

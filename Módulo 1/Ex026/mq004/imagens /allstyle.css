@@ -1,0 +1,128 @@
+@charset "UTF-8"
+/*Todas as demais mídiaa: */
+/* Pesquisar sobre: Typical device Breakpoints*/
+/* Tela pequena até: 600px
+   Celular:600-768px
+   Tablet:768-992px
+   Pc:992-1200px
+   Tv:min-width:1200px */
+
+@media print{
+  /*Impressão*/
+    {
+  
+ font-family:'Courier New'Courier;
+    }
+ 
+  
+  main{
+    width: 90vw;
+    border:2px solid black;
+  
+}
+main::after{
+  content: Essa impressão foi feita através do site Eduardo Teia;
+  text-decoration:overline;
+}
+h1{
+  color: black;
+  text-shadow: none;
+}
+#mg1{
+  display:none;
+  text-align: center;
+}
+#mg2{
+  display: none;
+}
+#mg3{
+  display: block;
+}
+#mg4{
+}
+#mg5{display:none;}
+  
+}
+#mg2{
+  display: none;
+}
+#mg3{
+  display: none;
+}
+#mg4{
+  display:none;
+}
+#mg5{display:none;
+  
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+  body{
+    background-image:url('back-tablet.jpg');
+  }
+  
+
+
+#mg1{
+  display: none;
+}
+#mg2{
+  display: block;
+}
+#mg3{
+  display: none;
+}
+#mg4{
+}
+#mg5{display:none;}
+  
+}
+
+
+
+@media screen and (min-width:1200px){
+  
+body{
+  background-image:url('back-tv.jpg');
+  
+}
+  #mg1{
+  display:none;
+  text-align: center;
+}
+#mg5{display:block;
+}
+
+main{
+  width: 700px;
+
+
+  
+}
+
+
+@media screen  and (min-width:992px) and (max-width:1200px){
+  body{
+    background-image:url('back-pc.jpg');
+  }
+  #mg1{
+    display: none;
+  }
+  #mg4{
+  display:block;
+}
+#mg5{display:none;}
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+  

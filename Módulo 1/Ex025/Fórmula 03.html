@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário 03</title>
+</head>
+<body>
+  <h1>
+    Teste de Formulário
+  </h1>
+  <form action="cadastro.php" autocomplete="on" method="get">
+   <p> <label for="inome"> Nome: </label> <input type="text" name="nome" id="inome" placeholder="Nome Completo"
+ minlength="10"  
+ maxlength="15" autocomplete="name" required></p>
+ 
+<p><label for="media"> Média: </label> <input type="number" name="média"
+id="media" min="0" max="10" placeholder="0 a 10" step="0.5 "></p> 
+<p> <label for="mes"> Mês:</label>
+  <input type="month" name="mês" id="mes" value="Outubro-2025">
+</p>
+<p> <label for="Data">Data: </label>
+  <input type="date" name="data" id="Data" >
+</p>
+<p> <label for="Time">Horas: </label>
+  <input type="time" name="time" id="Time" >
+</p>
+
+   <p>
+     <input type="submit" value="Enviar"> 
+     <input type="reset" value="Limpar">
+   </p>
+  </form>
+</body>
+</html>

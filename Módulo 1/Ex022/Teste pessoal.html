@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Testando o exercício 22</title>
+  <style>
+    body{
+      background-image: url('imagens/wallpaper002.jpg');
+    }
+    div.quadrado{
+      display: inline-block;
+      border: 2px solid black;
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      background-color: blue;
+      transition: transform 0.3s ease; background-color 0.3s ease; /* Adiciona
+      transição para a animação */
+    }
+    div#q1{
+      background-image: linear-gradient(lightblue,yellow);
+    }
+    div#q2{
+      background-image: linear-gradient(lightpink,red);
+    }
+    div#q3{
+      background-image: linear-gradient(darkgrey,darkgreen);
+    }
+    div#q4{
+      background-image: linear-gradient(blue,black);
+    }
+    div#q5{
+      background-image: linear-gradient(purple,pink);
+    }
+    div#q6{
+      background-image:linear-gradient(darkred,green);
+    }
+    div#q7{
+      background-image: linear-gradient(yellow,black);
+    }
+    div#q8{
+      background-image:linear-gradient(brown,skyblue);
+    }
+    .quadrado:hover{
+      
+    color: red; /* Muda a cor */
+    transform: scale(1.1) rotate(200deg); /* Aumenta e gira */
+    }
+  </style>
+</head>
+<body>
+ <div class="quadrado" id="q1"></div> 
+ <div class="quadrado" id="q2"></div> 
+ <div class="quadrado" id="q3"></div> 
+ <div class="quadrado" id="q4"></div> 
+ <div class="quadrado" id="q5"></div> 
+ <div class="quadrado" id="q6"></div> 
+ <div class="quadrado" id="q7"></div> 
+ <div class="quadrado" id="q8"></div> 
+</body>
+</html>

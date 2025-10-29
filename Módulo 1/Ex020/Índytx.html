@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Seletor personalizado</title>
+<style>  body{
+  font-family:Arial,Helvética,Sans-Serif
+}
+a{
+  color:red;
+  text-decoration:none;
+  font-weight:bold;
+  
+}
+a:hover{
+  color: black;
+  text-decoration:underline ;
+}
+a:active{
+  color: yellow;
+}
+.especial{
+  background-color:#93134c;
+}
+.especial::before{content:'✓';
+}
+.especial::after{
+  content:'✓';
+}
+  </style>
+</head>
+<body>
+ <ul>
+   <li> <a href="https://www.tiktok.com/@citopse">tiktok.com/@citopse</a></li>
+   <li> <a
+   href="https://www.github.com/Tduardo7teia"class="especial">https://www.github.com/Tduardo7teia</a></li>
+   <li> <a
+   href="https://www.youtube.com/@Trechosdefilmeses%C3%A9ries-j3d"class="especial">Trechosdefilmesese</a></li>
+ </ul> 
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercitando</title>
+</head>
+<form action="cadastro.php" autocomplete="on" method="post">
+  <fieldset>
+    <legend>Minha Prática</legend>
+  <p>
+    <label for="inome">Nome: </label><input type="text" name="nome" id="inome" required
+    min="8" max="15" autocomplete="nome" placeholder="Nome Completo">
+  </p>
+  <p>
+    <label for="iemail">Email: </label><input type="email" name="email" id="iemail" required
+    autocomplete="email" placeholder="Email">
+  </p>
+  <p>
+    <label for="isenha">Senha: </label><input type="password" name="senha"
+    id="isenha" required
+    min="8" max="15" autocomplete="password" placeholder="Senha">
+  </p>
+  <p>
+    <label for="itel">Telefone: </label><input type="tel" name="telefone"
+    id="itel" required
+    min="9" max="9" autocomplete="tel" placeholder="Telefone">
+  </p>
+  <p>
+    <label for="mes">Mês: </label><input type="month" name="mês" id="mes" required
+    min="8" max="15" autocomplete="month" placeholder="Mês">
+  </p>
+  <p>
+    <label for="data">Data: </label><input type="date" name="Data" id="data" required
+    autocomplete="nome" placeholder="Data">
+    <p>
+      <label for="ihora">Hora:</label><input type="time" name="hora" id="ihora"
+      required>
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset"value="Limpar">
+    </p>
+    </fieldset>
+    <fieldset>
+      <legend>Mimhas Preferências</legend>
+    <p>
+     <input type="checkbox" name="futebol" id="ifutebol"> <label
+     for="ifutebol">Futebol</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="basquete" id="ibasque"> <label
+     for="ibasque">Basquete</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="tenis" id="itenis"> <label
+     for="itenis">Tênis</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="filme" id="ifilm"> <label
+     for="ifilm">Filmes</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="series" id="iseries"> <label
+     for="iseries">Séries</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="youtube" id="iyoutube"> <label
+     for="iyoutube">Youtube</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="maquiagem" id="imaqui"> <label
+     for="imaqui">Maquiagem</label><br>
+    </p>
+    <p>
+
+      <input type="checkbox" name="comédia" id="icomedi">      <label
+      for="icomedi">Comédia</label><br>
+    </p>
+    <p>
+     <input type="checkbox" name="pintura"id="ipintuta"> <label
+     for="ipintuta">Pinturas</label><br>
+    </p>
+  </p>
+  <p> 
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpar"></p>
+  </fieldset>
+  <fieldset>
+    <legend>Sexo</legend>
+  <p>
+    <input type="radio" name="sexo" id="isexo" value="M"><label for="isexo">Masculino</label>
+  </p>
+  <p>
+    <input type="radio" name="sexo" id="ifemenino" value="F" checked><label
+    for="ifemenino">Femenino</label>
+  </p>
+  <p>
+    <input type="submit" value="Enviar">
+    <input type="reset"value="Limpar">
+  </p>
+    </fieldset>
+    
+
+    <fieldset>
+      <legend>Minhas informsções</legend>
+        <p>
+      <label for="cor">Cor:</label>
+      <input type="color" name="Cor" id="cor" required autocomplete="color"
+      >
+        </p>
+        <p>
+          <label for="nivel">Nível:</label>
+          <input type="range" name="nível" id="nivel" value="10"
+          min="1" max="100" required
+          >
+        </p>
+        <p>
+          <label for="ifoto">Minha Foto:</label>
+        <input type="file"
+        name="foto" id="ifoto" required="required"
+        placeholder="Sua Foto">
+        </p>
+          <p>
+    <input type="submit" value="Enviar">
+    <input type="reset"value="Limpar">
+  </p>
+    </fieldset>
+    <fieldset>
+      <legend>Minhas Listas e Profição</legend>
+      <p>
+        <label for="prof">Profissão:</label>
+
+        <select name="profissão" id="prof">
+        <option value="Es" selected>--- Escolha---</option>
+        <optgroup option value="P1">Profissão1</option>
+          <option value="DM">Doutor Médico</option>
+          <option value="EL">Electrecísta</option>
+          </optgroup>
+          <option value="CL">Canalizador</option>
+          <option value="EF">Enfermeiro</option>
+          <option value="GA">Genecologísta</option>
+        </select>
+      </p>
+      <p>
+        <label for="igosto">Seu Gostos</label>
+        <input type="text" name="gostos" id="igosto" list="iGostos"
+        placeholder="Seu Gosto">
+        <datalist id="iGostos">
+          <option value="PZ">Pizza</option>
+          <option value="SP">Esparghete</option>
+          <option value="MP">Mel Puro</option>
+          <option value="MA">Matemba</option>
+          <option value="PT">Filete de Peixe Tilápia</option>
+          
+        </datalist>
+      </p>
+        <p>
+    <input type="submit" value="Enviar">
+    <input type="reset"value="Limpar">
+  </p>
+    </fieldset>
+
+
+</form>
+<body>
+  
+</body>
+</html>

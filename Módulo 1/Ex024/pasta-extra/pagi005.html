@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>iframe segurança</title>
+</head>
+<body>
+  <h2>A segurança do iframe</h2>
+  <a href="a" anclick="clicou()">Clique em mim</a>
+  <div id="saída"></div>
+  <script>
+    function clicou(){
+      s= window.document.getElementById("Saída")
+      s.innerHTML +='<p>Você Clicou!</p>'
+    }
+  </script>
+</body>
+</html>
